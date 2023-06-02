@@ -1,0 +1,25 @@
+body{
+    font-family: 'open sans';
+    .contenedor{
+        margin: auto;
+        max-width: 600px;
+        background-color: #EC1C24;
+        padding: 20px;
+        border-color: 0.5px solid white;
+        h1{
+            color: white;
+            font-size: 38px;
+            text-align: center;
+        }
+        article{
+            max-width: 500px;
+            margin: auto;
+            p{
+                color: white;
+                font-size: 16px;
+                text-align: justify;
+                font-weight: 600;
+            }
+        }
+    }
+}

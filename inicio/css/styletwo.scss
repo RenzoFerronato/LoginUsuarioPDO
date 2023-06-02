@@ -1,0 +1,81 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'open sans';
+    // font-family: 'Tilt Prism';
+    // font-family: 'Source Code Pro';
+    // background-color: #333;
+    background-image: url(../fondo.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    header{
+        background-color: #EC1C24;
+        padding: 10px !important;
+        .conteiner{
+            // width: 100%;
+            // padding: 10px !important;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .cierre{
+                // margin: 10px 0px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+    .contenedor{
+        margin: auto;
+        margin-top: 150px;
+        max-width: 290px;
+        background-color: #EC1C24;
+        padding: 20px;
+        border-color: 0.5px solid white;
+        border-radius: 15px;
+        .titulo{
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: 'Tilt Prism' !important;
+        }
+        .formulario{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            input{
+                width: 200px;
+                padding: 8px 4px;
+                text-align: center;
+            }
+            .boton{
+                background-color: black;
+                color: #EC1C24;
+                font-size: 14px;
+                text-align: center;
+                border: none;
+                border-radius: 15px;
+                cursor: pointer;
+                width: 50%;
+            }
+            .registro{
+                font-size: 13px;
+                text-align: center;
+            }
+            .register{
+                background-color: white;
+                color: #EC1C24;
+                font-size: 13px;
+                text-align: center;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                width: 47%;
+                text-decoration: none;
+                padding: 5px 2px;
+            }
+        }
+    }
+}
